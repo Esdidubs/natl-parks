@@ -1,0 +1,49 @@
+body{
+    font-size: 20px;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-image: url('https://i.picsum.photos/id/1063/1500/1000.jpg?blur=3');
+    width: 100%;
+    padding: 20px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+main {
+    margin: 0 20px;
+}
+
+.hidden {
+    display: none;
+  }
+
+  .parkSec{
+      margin: 40px;
+      width: 80%;
+  }
+
+  .parkSec h3, .parkSec p, .parkSec h4 {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 250%;
+    margin:0;
+  }
+
+  h2 {
+    font-size: 200%;
+  }
+
+  h3 {
+      color: rgba(13, 122, 9, 1);
+      font-size: 150%;
+  }
+
+  h4 {
+      color: rgb(119, 79, 4);
+      font-size: 100%;
+  }
