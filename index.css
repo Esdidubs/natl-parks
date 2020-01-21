@@ -47,3 +47,7 @@ main {
       color: rgb(119, 79, 4);
       font-size: 100%;
   }
+
+  form, select {
+    margin-top: 10px;
+  }

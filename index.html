@@ -12,7 +12,7 @@
         <h1>National Park Search</h1>
         <form id="parkForm">
             <legend>Choose a state and choose a max number of results.</legend>
-            <select name="stateCode" id="stateCode">
+            <select multiple name="stateCode" id="stateCode">
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
                 <option value="AZ">Arizona</option>
@@ -65,7 +65,7 @@
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
             </select>
-            <input type="number" name="quantity" id=quantity min="1" max="100" value="10">
+            <input type="number" name="quantity" id="quantity" min="1" max="100" value="10">
             <button>Show Me Parks</button>
         </form>
         </header>
